@@ -3,7 +3,9 @@ import { NextResponse } from "next/server";
 import { clerkMiddleware,createRouteMatcher } from "@clerk/nextjs/server";
 
 // Bảo vệ đường dẫn (routes)
-const isProtectedRoute = createRouteMatcher(['/'])
+const isProtectedRoute = createRouteMatcher([
+  "/",
+]);
 
 export default clerkMiddleware((auth, request) => {
   //Sử lí đăng kí tài khoản 

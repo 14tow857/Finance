@@ -10,7 +10,7 @@ export default function Page() {
             Welcom Back 
           </h1>
           <p className="text-base text-[#001]">
-            Log in or Create accounts to get back to your dashboards!
+            Log up or Create accounts to get back to your dashboards!
           </p>
         </div>
         <div className='flex-center justify-center mt-8'>
