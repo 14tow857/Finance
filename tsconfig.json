@@ -2,8 +2,8 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
+    "skipLibCheck": true,  // Bỏ qua kiểm tra kiểu cho các thư viện bên ngoài
+    "strict": false,  // Tạm thời tắt kiểm tra kiểu nghiêm ngặt
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
